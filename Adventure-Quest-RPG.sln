@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure-Quest-RPG", "Adventure-Quest-RPG\Adventure-Quest-RPG.csproj", "{81F8DBCA-2F4E-4CE3-86D4-DB782FF27FD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureQuestRPG", "AdventureQuestRPG\AdventureQuestRPG.csproj", "{965CE5A8-DC7D-4826-9FD2-E9DA6E257425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureQuestRPGTests", "AdventureQuestRPGTests\AdventureQuestRPGTests.csproj", "{B5D1605A-F02E-4A74-B4DD-4118B38ED7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81F8DBCA-2F4E-4CE3-86D4-DB782FF27FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81F8DBCA-2F4E-4CE3-86D4-DB782FF27FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81F8DBCA-2F4E-4CE3-86D4-DB782FF27FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81F8DBCA-2F4E-4CE3-86D4-DB782FF27FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965CE5A8-DC7D-4826-9FD2-E9DA6E257425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965CE5A8-DC7D-4826-9FD2-E9DA6E257425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965CE5A8-DC7D-4826-9FD2-E9DA6E257425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965CE5A8-DC7D-4826-9FD2-E9DA6E257425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D1605A-F02E-4A74-B4DD-4118B38ED7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D1605A-F02E-4A74-B4DD-4118B38ED7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D1605A-F02E-4A74-B4DD-4118B38ED7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D1605A-F02E-4A74-B4DD-4118B38ED7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1395F9BA-7E36-4901-8E2B-74CB96F08B28}
+		SolutionGuid = {06B4E4E6-86C0-4E85-B7EB-F31958817D7A}
 	EndGlobalSection
 EndGlobal
