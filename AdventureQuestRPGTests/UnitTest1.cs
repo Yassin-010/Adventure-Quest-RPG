@@ -12,7 +12,7 @@ namespace AdventureQuestRPGTests
             Monster goblin = new Goblin("Goblin", 50, 15, 5);
             BattleSystem battleSystem = new BattleSystem();
 
-            // Act
+            // Act .
             battleSystem.Attack(hero, goblin);
 
             // Assert
